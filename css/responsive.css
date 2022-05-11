@@ -80,6 +80,12 @@
     .start-2 {
         order: 1;
     }
+    .plan-footer {
+        height: 180px;
+    }
+    .plan {
+        border-top: 10px solid #93A5FF;
+    }
 }
 
 @media screen and (max-width:576px) {

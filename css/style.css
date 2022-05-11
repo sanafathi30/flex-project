@@ -191,6 +191,7 @@ header {
     border-radius: 5px;
     padding: 30px;
     /* margin-top: 65px; */
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -263,12 +264,13 @@ header {
 .plan {
     text-align: center;
     color: #2E2E2E;
-    padding: 60px 20px 30px 20px;
+    padding: 0 20px 20px 20px;
     border-radius: 5px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     transition: 0.8s;
     border-top: 10px solid transparent;
+    height: 100%;
 }
 
 .plan:hover {
@@ -284,6 +286,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 350px;
 }
 
 .plan-top img {
@@ -300,7 +303,7 @@ header {
 .plan-description {
     font-size: 19px;
     line-height: 28px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .plan-footer {
@@ -319,12 +322,14 @@ header {
 
 .plan-btn {
     font-family: 'Nunito Bold';
-    /* width: 200px; */
+    width: 200px;
     background-color: #F7F8FF;
     color: #93A5FF;
     margin-top: 50px;
     display: block;
-    /* display: none; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .plan-btn i {
@@ -333,4 +338,35 @@ header {
 
 .plan-price small {
     font-size: 16px;
+}
+
+
+/* *********clients section************ */
+
+.clients {
+    margin: 50px 0;
+}
+
+.clients-logo {
+    list-style-type: none;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    /* margin: 30px 0 0 0; */
+    text-align: center;
+}
+
+.clients-logo li {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.clients-logo li img {
+    width: 170px;
+}
+
+.clients-btn {
+    display: block;
+    margin: 0 auto;
+    width: 162px;
+    text-align: center;
 }
