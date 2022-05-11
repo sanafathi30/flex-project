@@ -365,3 +365,73 @@ header {
     width: 162px;
     text-align: center;
 }
+
+
+/* ****** comments section******** */
+
+.comments {
+    margin-top: 110px;
+    padding: 60px 0;
+    background-color: #F7F8FF;
+    position: relative;
+}
+
+.comments-img {
+    position: absolute;
+}
+
+.comments-img1 {
+    top: -45px;
+    right: 0;
+}
+
+.comments-img2 {
+    bottom: -65px;
+    left: 0;
+}
+
+.checked {
+    color: orange;
+}
+
+.comment {
+    display: flex;
+    margin: 100px 0 100px 0;
+}
+
+.comment-content {
+    margin-left: 20px;
+}
+
+.comment-rating i {
+    margin: 2px;
+    opacity: 0.5;
+}
+
+.comment-img {
+    width: 85px !important;
+    /* margin-right: 15px; */
+}
+
+.comment-body p {
+    font-size: 22px;
+    line-height: 28px;
+    color: #2E2E2E;
+    font-family: 'Nunito italic';
+}
+
+.comment-person {
+    font-family: 'Nunito Bold';
+    font-size: 16px;
+    color: #2E2E2E;
+}
+
+.owl-dots .owl-dot span {
+    background-color: #93A5FF !important;
+    opacity: 0.4;
+}
+
+.owl-dots .owl-dot.active span {
+    transform: scale(1.6);
+    opacity: 1;
+}

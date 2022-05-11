@@ -492,6 +492,6 @@
 .col-xl-11,
 .col-xl-12 {
     width: 100%;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     padding-left: 20px;
 }

@@ -131,4 +131,7 @@
     .section-caption {
         font-size: 18px;
     }
+    .comments-img {
+        display: none;
+    }
 }
