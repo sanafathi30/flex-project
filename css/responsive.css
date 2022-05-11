@@ -125,4 +125,10 @@
     .start-img-fix {
         max-width: 170px;
     }
+    .section-title {
+        font-size: 25px;
+    }
+    .section-caption {
+        font-size: 18px;
+    }
 }

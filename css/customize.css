@@ -23,6 +23,10 @@
     margin-left: 0 !important;
 }
 
+.mt-80 {
+    margin-top: 80px;
+}
+
 .p-0 {
     padding: 0 !important;
 }
@@ -86,6 +90,10 @@
 
 .order-1 {
     order: 1 !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 
